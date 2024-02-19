@@ -76,10 +76,12 @@ footer{
     margin: 2rem;
 }
 .bottom{
+    max-width: 1200px;
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 auto;
 }
 .card{
     border-radius: 7px;
@@ -134,7 +136,7 @@ footer{
     font-weight: 600;
 }
 
-@media (max-width: 768px){
+@media (max-width: 1110px){
 
     .paragraph-container{
         margin-left: 15%;
